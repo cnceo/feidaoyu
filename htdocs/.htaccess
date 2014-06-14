@@ -1,0 +1,25 @@
+Options +FollowSymLinks
+RewriteEngine On
+RewriteBase /
+RewriteRule ^/$  /index.php?type=default&model=index [L]
+RewriteRule ^/([^\/\.]+).html$ /index.php?type=default&m=$1 [L]
+
+
+
+
+
+RewriteRule ^(?!admin)([^\/\.]+)\/{0,1}$ /index.php?type=default&m=index&lang=$1 [L]
+RewriteRule ^([^\/\.]+)/user\/{0,1}$ /index.php?type=user&m=index&lang=$1[L]
+RewriteRule ^([^\/\.]+)/user/([^\/\.]+).html$ /index.php?type=user&m=$2&lang=$1 [L]
+RewriteRule ^([^\/\.]+)/user/([^\/\.]+).html&([^\/\.]+)$  /index.php?type=user&m=$2&$3&lang=$1 [L]
+RewriteRule ^([^\/\.]+)/user/([^\/\.]+).html\?([^\/\.]+)$  /index.php?type=user&m=$2&$3&lang=$1 [L]
+RewriteRule ^([^\/\.]+)/user/([^\/\.]+)\/([^\/\.]+)/([^\/\.]+)/{0,1}$ /index.php?type=user&m=$2&$3=$4&$1 [L]
+RewriteRule ^eorr/([^\/\.]+).html$ /index.php?type=eorr&m=$1 [L]
+RewriteRule ^eorr/([^\/\.]+)\/{0,1}$ /index.php?type=eorr&model=$1 [L]
+RewriteRule ^product\/([0-9]+).html  /index.php?type=products&m=detail&id=$1 [L]
+RewriteRule ^([^\/\.]+)-([0-9]+).html&([^\/\.]+)$  /index.php?type=products&m=category&cateid=$2&$3 [L]
+RewriteRule ^([^\/\.]+)-([0-9]+).html  /index.php?type=products&m=category&cateid=$2 [L]
+RewriteRule ^([^\/\.]+)/([^\/\.]+).html&([^\/\.]+)$  /index.php?type=default&lang=$1&m=$2&$3 [L]
+RewriteRule ^([^\/\.]+)/([^\/\.]+).html  /index.php?type=default&lang=$1&m=$2 [L]
+RewriteRule ^(?!admin)([^\/\.]+)\/{0,1}$ /index.php?type=article&model=index&cate=$1 [L]
+RewriteRule ^(?!admin)([^\/\.]+)\/([^\/\.]+)\/([0-9]+).html  /index.php?type=article&m=detail&cate=$2&id=$3&lang=$1 [L]
