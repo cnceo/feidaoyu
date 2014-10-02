@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.7, created on 2013-06-09 12:20:26
+<?php /* Smarty version 2.6.7, created on 2014-10-02 04:11:07
          compiled from global/header.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('modifier', 'default', 'global/header.tpl', 28, false),)), $this); ?>
@@ -14,20 +14,20 @@ smarty_core_load_plugins(array('plugins' => array(array('modifier', 'default', '
 -<?php echo $this->_tpl_vars['sites']['csitename']; ?>
 </title>
 <link rel="shortcut icon" href="/images/favicon.ico" mce_href="/images/favicon.ico" type="image/x-icon">
-<link rel="stylesheet" type="text/css" href="/htdocs/css/style.css"/>
-<link rel="stylesheet" type="text/css" href="/htdocs/css/global.css" />
-<link rel="stylesheet" type="text/css" href="/htdocs/css/index.css" />
-<link rel="stylesheet" type="text/css" href="/htdocs/css/uc_comon.css" />
-<link rel="stylesheet" type="text/css" href="/htdocs/css/default.css" />
-<link rel="stylesheet" type="text/css" href="/htdocs/css/shopping.css" />
-<script type="text/javascript" src="/htdocs/js/jquery/jquery.min.js"></script>
-<script type="text/javascript" src="/htdocs/js/fdy.js"></script>
+<link rel="stylesheet" type="text/css" href="/css/style.css"/>
+<link rel="stylesheet" type="text/css" href="/css/global.css" />
+<link rel="stylesheet" type="text/css" href="/css/index.css" />
+<link rel="stylesheet" type="text/css" href="/css/uc_comon.css" />
+<link rel="stylesheet" type="text/css" href="/css/default.css" />
+<link rel="stylesheet" type="text/css" href="/css/shopping.css" />
+<script type="text/javascript" src="/js/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="/js/fdy.js"></script>
 <body>
 
 <!--头部开始-->
          <div id="header" class="cfl">
 			<div class="header_wrap" style="border:none;">
-				<h1 class="header_logo"><a href="/"><img src="/htdocs/images/fdylogo.gif" /></a></h1>
+				<h1 class="header_logo"><a href="/"><img src="/images/fdylogo.gif" /></a></h1>
 				<div class="header_menu">
 					<ul class="header_menu_top cfl">
 						<li class="header_menu_top_cart">

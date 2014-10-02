@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.7, created on 2013-06-09 12:18:30
+<?php /* Smarty version 2.6.7, created on 2014-10-02 06:42:04
          compiled from default/index.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('modifier', 'truncate', 'default/index.tpl', 32, false),)), $this); ?>
@@ -15,13 +15,13 @@ $(function(){
 });
 </script>
 <div id="xmFocus" class="xmFocus cfl">
-	<div index="1" style="z-index:2;background:#FFFFFF url(/htdocs/images/big-img1.jpg) no-repeat center;">
+	<div index="1" style="z-index:2;background:#FFFFFF url(/images/big-img1.jpg) no-repeat center;">
 		<a href="/vps/host-3.html" target="_blank" onClick="_gaq.push(['_trackEvent', '首页广告点击', 'A1']);" style="width:962px; height:430px; display:inline-block;"> </a>
 	</div>
-	<div index="2" style="z-index:1;background:#FFFFFF url(/htdocs/images/big-img2.jpg) no-repeat center;">
+	<div index="2" style="z-index:1;background:#FFFFFF url(/images/big-img2.jpg) no-repeat center;">
 		<a href="/domain.html/" style="width:962px; height:430px; display:inline-block;"></a>
 	</div>
-	<div index="3" style="z-index:1;background:#FFFFFF url(/htdocs/images/big-img3.jpg) no-repeat center;">
+	<div index="3" style="z-index:1;background:#FFFFFF url(/images/big-img3.jpg) no-repeat center;">
 		<a href="/user/register.html" style="width:962px; height:430px; display:inline-block;"></a>
 	</div>
   <ul style="width: 60px; right: 50%;">

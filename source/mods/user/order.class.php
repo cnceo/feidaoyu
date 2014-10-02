@@ -96,7 +96,7 @@
  				    $smail->Password   = $this->result["sites"]["smtppasswd"];        // SMTP account password
  					$smail->SetFrom($this->result["sites"]["sendemail"],"$orgname");
  					$smail->Subject = iconv( "utf-8", "gb2312", "飞刀鱼订单中心:".$email);
- 					$smail->AddAddress("vince@seabig.cn", "");
+ 					$smail->AddAddress("495787233@qq.com", "");
  					$sbody = "邮箱：".$email."<br>
 				                                 订单号：".$order_id."<br>";
  					foreach ($_SESSION["shopcart"] as $key=>$val)

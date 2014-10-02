@@ -40,10 +40,10 @@
 					$_SESSION["login_user"] = $r;
 					$msg["message"] = "登录成功";
 					$this->mLog->userLog("前台登录成功");
-			    }else{
-			    	$msg["status"] = "false";
-			    	$msg["message"] = "您的邮箱还没有验证,请查看邮件进行验证";
-			    }
+                                }else{
+                                    $msg["status"] = "false";
+                                    $msg["message"] = "您的邮箱还没有验证,请查看邮件进行验证";
+                                }
 			}
 			else
 			{

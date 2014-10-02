@@ -7,13 +7,13 @@ $(function(){
 });
 </script>
 <div id="xmFocus" class="xmFocus cfl">
-	<div index="1" style="z-index:2;background:#FFFFFF url(/htdocs/images/big-img1.jpg) no-repeat center;">
+	<div index="1" style="z-index:2;background:#FFFFFF url(/images/big-img1.jpg) no-repeat center;">
 		<a href="/vps/host-3.html" target="_blank" onClick="_gaq.push(['_trackEvent', '首页广告点击', 'A1']);" style="width:962px; height:430px; display:inline-block;"> </a>
 	</div>
-	<div index="2" style="z-index:1;background:#FFFFFF url(/htdocs/images/big-img2.jpg) no-repeat center;">
+	<div index="2" style="z-index:1;background:#FFFFFF url(/images/big-img2.jpg) no-repeat center;">
 		<a href="/domain.html/" style="width:962px; height:430px; display:inline-block;"></a>
 	</div>
-	<div index="3" style="z-index:1;background:#FFFFFF url(/htdocs/images/big-img3.jpg) no-repeat center;">
+	<div index="3" style="z-index:1;background:#FFFFFF url(/images/big-img3.jpg) no-repeat center;">
 		<a href="/user/register.html" style="width:962px; height:430px; display:inline-block;"></a>
 	</div>
   <ul style="width: 60px; right: 50%;">

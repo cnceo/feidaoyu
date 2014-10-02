@@ -7,7 +7,7 @@
 			$this->_globals();
 			//unset($_SESSION["shopcart"]);
 			//print_r($_SESSION);
-			$this->result["sites"]["pagetitle"] = "飞刀鱼主机，全球最低价";
+			$this->result["sites"]["pagetitle"] = "飞刀鱼主机,1111111";
 			$r["logs"] = $this->mBasic->getNavList("products"," status = 1",2);//读取主机产品
 			foreach ($r["logs"] as $key=>$val)
 			{

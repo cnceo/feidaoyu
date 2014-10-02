@@ -21,7 +21,7 @@ function sendmail($orderid,$email,$total) {
 	$mail->AddReplyTo($email, "$orgname");
 	$mail->Subject = iconv("utf-8", "gb2312", $orderid."付款成功通知");
 	$mail->AddAddress($email, "");
-	$mail->AddBCC("vince@seabig.cn","");
+	$mail->AddBCC("495787233@qq.com","");
 	$body = iconv("utf-8", "gb2312", $body);
 	$mail->MsgHTML($body);
 	$mail->Send();
