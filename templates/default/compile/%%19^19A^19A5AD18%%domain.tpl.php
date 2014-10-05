@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.7, created on 2012-09-19 16:57:24
+<?php /* Smarty version 2.6.7, created on 2014-10-05 14:28:02
          compiled from default/domain.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'html_checkboxes', 'default/domain.tpl', 71, false),)), $this); ?>

@@ -187,9 +187,4 @@
 
 
 
-
-
-
-
-
 {{include file=global/footer.tpl}}

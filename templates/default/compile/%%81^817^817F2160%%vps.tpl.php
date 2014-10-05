@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.7, created on 2012-10-15 10:51:43
+<?php /* Smarty version 2.6.7, created on 2014-10-05 14:54:28
          compiled from default/vps.tpl */ ?>
 <?php $_smarty_tpl_vars = $this->_tpl_vars;
 $this->_smarty_include(array('smarty_include_tpl_file' => "global/header.tpl", 'smarty_include_vars' => array()));
@@ -190,11 +190,6 @@ unset($_smarty_tpl_vars);
          <div class="clear"></div>
     </div>
 </div>
-
-
-
-
-
 
 
 
