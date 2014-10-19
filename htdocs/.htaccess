@@ -1,18 +1,14 @@
 Options +FollowSymLinks
 RewriteEngine On
 RewriteBase /
-RewriteRule ^/$  /index.php?type=default&model=index [L]
+RewriteRule ^/$  /index.php?type=default [L]
 RewriteRule ^user\/{0,1}$ /index.php?type=user&m=index [L]
 RewriteRule ^user/([^\/\.]+)/([0-9]+).html$ /index.php?type=user&m=trainclassdetail&id=$2 [L]
 RewriteRule ^user/([^\/\.]+).html$ /index.php?type=user&m=$1 [L]
 RewriteRule ^user/([^\/\.]+).html&([^\/\.]+)$  /index.php?type=user&m=$1&$2 [L]
 RewriteRule ^user/([^\/\.]+).html\?([^\/\.]+)$  /index.php?type=user&m=$1&$2 [L]
-RewriteRule ^ask\/{0,1}$ /index.php?type=ask&m=index [L]
-RewriteRule ^ask\/([^\/\.]+).html$ /index.php?type=ask&m=$1 [L]
-RewriteRule ^ask\/([^\/\.]+)/([0-9]+).html&([^\/\.]+)$ /index.php?type=ask&m=detail&id=$2&$3 [L]
-RewriteRule ^ask\/([^\/\.]+)/([0-9]+).html$ /index.php?type=ask&m=detail&id=$2 [L]
-RewriteRule ^ask/([^\/\.]+).html\&([^\/\.]+)$  /index.php?type=ask&m=$1&$2 [L]
 #新加url规则
+RewriteRule ^([^\/\.]+).html&a=([^\/\.]+)&id=([0-9]+)&year=([0-9]+)&vps=([^\/\.]+)$  /index.php?type=default&m=$1&id=$3&year=$4&vps=$5 [L]
 RewriteRule ^vps\/([^\/\.]+)-([0-9]+).html$ /index.php?type=product&m=detail&id=$2 [L]
 #如果前面的全部无法匹配，报错
 RewriteRule ^eorr/([^\/\.]+).html$ /index.php?type=eorr&m=$1 [L]

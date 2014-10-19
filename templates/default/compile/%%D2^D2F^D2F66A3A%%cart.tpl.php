@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.7, created on 2012-09-20 17:47:09
+<?php /* Smarty version 2.6.7, created on 2014-10-19 16:14:42
          compiled from default/cart.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('modifier', 'strtolower', 'default/cart.tpl', 103, false),array('modifier', 'replace', 'default/cart.tpl', 103, false),array('function', 'html_options', 'default/cart.tpl', 114, false),)), $this); ?>
@@ -154,13 +154,12 @@ function delProduct(k){
 </ul>
 
 	<ul class="shopCarCheck cfl">
-		<li class="item1">
+            <li class="item1">
 			<!-- <span>在线支付满200元免运费</span><br/> -->
-
-    	</li>
+            </li>
 	   <li class="item2 cfl">
 			<a class="shopBtn" id="mi_checkout" href="javascript:void(0)" <?php if ($this->_tpl_vars['cartcount'] > 0): ?>onclick="account()";<?php endif; ?>>去结算</a><a class="proCon_form_box_btnNogoods" href="/">继续购买产品</a>
-       </li>
+            </li>
 	</ul>
 	<input type="hidden" name="totprice" value="<?php echo $this->_tpl_vars['totalprice']; ?>
 ">

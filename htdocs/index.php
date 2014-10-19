@@ -1,5 +1,5 @@
 <?php
-  //print_r($_GET);
+ // print_r($_GET);
   //打开所有的错误级别  
  //ini_set('error_reporting', E_ALL); 
  //显示错误 

@@ -9,6 +9,7 @@ class cart extends Controller {
      * 读取购物车产品
      */
     public function defshow() {
+        // echo '2222';
         $this->_globals();
         $r["logs"] = $_SESSION["shopcart"];
         foreach ($r["logs"] as $key => $val) {
@@ -25,6 +26,7 @@ class cart extends Controller {
      * 添加到购物车
      */
     public function addcart() {
+        // echo '11111';
         $this->_globals();
         $time = time();
         $rand = rand(1, 99);
@@ -56,6 +58,7 @@ class cart extends Controller {
                 $_SESSION["shopcart"][$row]["ptype"] = $_GET["vps"];
             }
         }
+        
         header("LOCATION:/cart.html");
         exit();
     }

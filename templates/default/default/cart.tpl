@@ -130,13 +130,12 @@ function delProduct(k){
 </ul>
 
 	<ul class="shopCarCheck cfl">
-		<li class="item1">
+            <li class="item1">
 			<!-- <span>在线支付满200元免运费</span><br/> -->
-
-    	</li>
+            </li>
 	   <li class="item2 cfl">
 			<a class="shopBtn" id="mi_checkout" href="javascript:void(0)" {{if $cartcount>0}}onclick="account()";{{/if}}>去结算</a><a class="proCon_form_box_btnNogoods" href="/">继续购买产品</a>
-       </li>
+            </li>
 	</ul>
 	<input type="hidden" name="totprice" value="{{$totalprice}}">
 	</form>
